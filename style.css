@@ -8,7 +8,7 @@ nav {
   background-color: white;
   padding: 10px 0;
   display: flex;
-  justify-content: right;
+  justify-content: ;
   
 }
 nav ul {
@@ -28,7 +28,7 @@ nav ul li a {
   color: rgb(59, 27, 201);
 }
 nav a:hover {
-  background-color: rgb(76, 44, 165);
+  background-color: white;
   color: white;
 }
 .container {
