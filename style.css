@@ -6,29 +6,28 @@ body {
 }
 nav {
   background-color: white;
-  padding: 10px 0;
   display: flex;
-  justify-content: ;
-  
+  font-size:10px;
+   
 }
 nav ul {
   padding: 0;
   margin: 0;
   list-style-type: none;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 nav ul li a {
   display: block;
   text-decoration: none;
   padding: 10px 15px;
-  border-radius: 5px;
+  border-radius: 30px;
   background-color: white;
   color: rgb(59, 27, 201);
 }
 nav a:hover {
-  background-color: rgb(102, 13, 13);
+  background-color: white;
   color: white;
   border-radius: 30px;
 }
@@ -36,14 +35,16 @@ nav a:hover {
   max-width: 987px;
   margin: 0 auto;
   display: flex;
-  justify-content:space-between ;
 }
 .navbar {
-  padding: 15px 0;
+  padding: 5px 0;
 }
-span{
- text-align: center;
- padding: 20px 20px;
- font-weight: 500;
+nav li img{
+  display: block;
+  align-items: center;
+  width: 25px;
+
 }
+
+
 
