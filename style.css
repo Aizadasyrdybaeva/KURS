@@ -59,5 +59,8 @@ nav ul li span img{
   margin: 0 0 10px 0;
 }
  
+.block{
+  display: flex;
+}
 
 
