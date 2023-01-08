@@ -28,8 +28,9 @@ nav ul li a {
   color: rgb(59, 27, 201);
 }
 nav a:hover {
-  background-color: white;
+  background-color: rgb(102, 13, 13);
   color: white;
+  border-radius: 30px;
 }
 .container {
   max-width: 987px;
@@ -45,3 +46,4 @@ span{
  padding: 20px 20px;
  font-weight: 500;
 }
+
