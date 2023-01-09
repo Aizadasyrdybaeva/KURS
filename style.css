@@ -199,16 +199,6 @@ nav img {
 }
 table, tr, td{
   border:1px solid gray;
-  width: 80%;
-  
-}
-.table1{
-  display: flex;
-  justify-content: center;
-  padding: 10px;
-}
-.table img{
-  width: 50%;
-  height: 50%;
-  padding: 20px 20px 20px 20px;
+  margin: 10px auto;
+
 }
