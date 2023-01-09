@@ -53,3 +53,8 @@ nav img{
   display: flex;
   width: 450px;
 }
+.block{
+  border:2px solid grey;
+  display: flex;
+  
+}
