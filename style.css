@@ -142,6 +142,7 @@ nav img {
   font-size: 10px;
   padding-left: 40px;
   padding-right: 200px;
+  padding-top: 20px;
 }
 #text3{
   font-size: 20px;
@@ -200,8 +201,27 @@ nav img {
 .block5{
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
+  
 }
 .block5 img{
-  width: 100px;
+  width: 200px;
+  padding: 5px 50px 5px 50px;
+}
+.icon{
+  display: flex;
+  flex-wrap: wrap;
+}
+.icon img{
+  width: 80px;
+  padding-left:30px;
+
+}
+.icon1{
+  display: flex;
+  flex-wrap: wrap;
+}
+.icon1 img{
+  width: 150px;
+  padding-left:30px;
+
 }
