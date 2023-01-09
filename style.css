@@ -61,7 +61,7 @@ nav img {
 }
 
 .block {
-  border: 2px solid grey;
+  border: 0;
   display: flex;
   width: 100%;
   height: 70vh;
@@ -196,4 +196,19 @@ nav img {
   display: inline-block;
   font-size: 12px;
   
+}
+table, tr, td{
+  border:1px solid gray;
+  width: 80%;
+  
+}
+.table1{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.table img{
+  width: 50%;
+  height: 50%;
+  padding: 20px 20px 20px 20px;
 }
