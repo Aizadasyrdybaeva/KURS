@@ -11,12 +11,12 @@ body {
  
 }
 nav {
+  display: block;
   background-color: white;
   font-size: 10px;
-  padding: 0px 70px 5px 70px;
-  box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.15);
+  padding: 0px 10px 0 10px;
   border-radius: 0px;
-  margin: 0;
+  margin: 0 auto;
   letter-spacing: 1px;
   
 }
@@ -26,14 +26,14 @@ nav ul {
 
 nav ul li a {
   text-decoration: none;
-  padding: 10px 15px;
+  padding: 10px 10px;
   background-color: white;
   color: black;
 }
 nav a:hover {
   color:black;
   background-color: silver;
-  border-radius: 50px;
+  border-radius: 30px;
   border-color: silver;
   
 }
@@ -47,5 +47,9 @@ nav a:hover {
 nav img{
   width: auto;
   height: auto;
-  padding: 5px 5px 5px 10px;
+  padding: 0 5px;
+}
+#pustoi{
+  display: flex;
+  width: 450px;
 }
