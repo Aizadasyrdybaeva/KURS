@@ -197,8 +197,11 @@ nav img {
   font-size: 12px;
   
 }
-table, tr, td{
-  border:1px solid gray;
-  margin: 10px auto;
-
+.block5{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.block5 img{
+  width: 100px;
 }
