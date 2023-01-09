@@ -69,30 +69,35 @@ nav img {
 }
 
 .image {
-  height: 300px;
+  height: 70vh;
+  width: 400px;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 15px 15px;
+  justify-content: left;
+  padding: 15px 45px 10px 0;
+  margin-left: 20px;
 }
-h6{
-  
-}
+
 .block1{
-  border: 1px solid grey;
+  border: 0;
   display: flex;
   width: 70%;
-  height: 70vh;
+  height: 60vh;
   justify-content: center;
   
 }
 .block2{
-  border: 1px solid grey;
   display: flex;
   width: 100%;
   height: 70vh;
-  justify-content: center;
+  justify-content:left;
   
+}
+.image2 {
+  height: 70vh;
+  width: 380px;
+  display: flex;
+  padding: 15px 45px 10px 20px;
+  margin: 0;
 }
 #t-text{
   display: flex;
@@ -100,7 +105,7 @@ h6{
 }
 #img2{
   padding:70px 0 0 40px;
-  width:60px;
+  width:70px;
   height: ;
   
   
@@ -125,10 +130,7 @@ h6{
   padding: 0px 10px 0 10px;
   margin: 0;
 }
-.block3 p{
-  
 
-}
 #text1{
   font-size: 20px;
   line-height: 5px;
@@ -139,5 +141,9 @@ h6{
 #text2{
   font-size: 10px;
   padding-left: 40px;
-  padding-right: 150px;
+  padding-right: 200px;
+}
+.block4{
+  display: block;
+  padding: 80px 40px 10px 40px ;
 }
