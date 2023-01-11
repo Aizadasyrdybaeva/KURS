@@ -57,6 +57,12 @@ nav a:hover {
   padding: 0 5px;
   width: 50px ;
 }
+botton{
+  border:2px solid black;
+  border-radius: 50px;
+  font-size: 14px;
+  padding: 3px 10px 3px 10px;
+}
 #pustoi {
   display: flex;
   width: 450px;
