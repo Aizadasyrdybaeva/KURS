@@ -357,8 +357,11 @@ td {
   font-size: 10px;
   opacity: 0.3;
   width: 800px;
-}
+}   
 .warranty h3{
   font-weight: 400;
   font-size: 24px;
+}
+.warranty p{
+  color: #222222;
 }
