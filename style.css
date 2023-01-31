@@ -279,6 +279,7 @@ botton {
   display: inline-block;
   font-size: 12px;
   background-color: white;
+  border: 1px solid gray;
 } 
 
 .block5 img {
