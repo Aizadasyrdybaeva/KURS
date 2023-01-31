@@ -5,72 +5,19 @@
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+
 .row {
   display: flex;
   flex-wrap: wrap;
-
   justify-content: center;
 }
+
 [class^="col"] {
   padding: 0 10px;
 }
-.col-12 {
-  flex-basis: 100%; /* flex: 100% 0 0; */
-  flex-grow: 0;
-  flex-shrink: 0;
-}
-.col-11 {
-  flex-basis: 91.66%; /* 100%/12*11 */
-  flex-grow: 0;
-  flex-shrink: 0;
-}
-.col-10 {
-  flex-basis: 83.33%;
-  flex-grow: 0;
-  flex-shrink: 0;
-}
-.col-9 {
-  flex-basis: 75%;
-  flex-grow: 0;
-  flex-shrink: 0;
-}
-.col-8 {
-  flex-basis: 66.66%;
-  flex-grow: 0;
-  flex-shrink: 0;
-}
-.col-7 {
-  flex-basis: 58.33%;
-  flex-grow: 0;
-  flex-shrink: 0;
-}
+
 .col-6 {
   flex-basis: 50%;
-  flex-grow: 0;
-  flex-shrink: 0;
-}
-.col-5 {
-  flex-basis: 41.66%;
-  flex-grow: 0;
-  flex-shrink: 0;
-}
-.col-4 {
-  flex-basis: 33.3%;
-  flex-grow: 0;
-  flex-shrink: 0;
-}
-.col-3 {
-  flex-basis: 25%;
-  flex-grow: 0;
-  flex-shrink: 0;
-}
-.col-2 {
-  flex-basis: 16.66%;
-  flex-grow: 0;
-  flex-shrink: 0;
-}
-.col-1 {
-  flex-basis: 8.33%;
   flex-grow: 0;
   flex-shrink: 0;
 }
@@ -81,6 +28,7 @@ nav {
   padding: 10px 0;
   margin: 0 auto;
 }
+
 nav ul {
   padding: 0;
   margin: 0;
@@ -96,33 +44,33 @@ nav ul li a {
   background-color: white;
   color: black;
 }
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
   border-bottom: 1px solid silver;
 }
+
 .menu {
   padding: 15px 0;
 }
+
 span {
   text-align: center;
   padding: 10px 10px;
   font-size: 10px;
-}
-.main1 {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
 }
 
 .menu-img1 {
   padding: 0 5px;
   width: 40px;
 }
+
 .menu-img2 {
   padding: 0 5px;
   width: 50px;
 }
+
 botton {
   border: 1px solid black;
   border-radius: 50px;
@@ -132,17 +80,10 @@ botton {
   justify-content: center;
   margin: ;
 }
+
 #pustoi {
   display: flex;
   width: 300px;
-}
-
-.block {
-  border: 0;
-  display: flex;
-  width: 100%;
-  height: 70vh;
-  padding: 0px 10px 0 10px;
 }
 
 .image {
@@ -152,26 +93,10 @@ botton {
   justify-content: center;
 }
 
-.block1 {
-  border: 0;
-  display: flex;
-  width: 70%;
-  height: 60vh;
-  justify-content: right;
-}
-
-.block2 {
-  display: flex;
-  width: 100%;
-  height: 70vh;
-  justify-content: left;
-}
-
 .image2 {
   height: 70vh;
   width: 380px;
-  display: flex;
-  justify-content: right;
+
 }
 
 .t-text {
@@ -196,6 +121,7 @@ botton {
   width: 100px;
   height: 30px;
 }
+
 .container {
   max-width: 900px;
   padding: 0 15px;
@@ -255,32 +181,12 @@ botton {
   text-align: center;
   padding-top: 70px;
 }
-.pustoi1 {
-  width: 1700px;
-  height: 100px;
-}
+
 .text6 {
   font-size: 14px;
   text-align: center;
   padding: 0 350px 10px 350px;
 }
-
-.b-bb {
-  display: flex;
-  justify-content: center;
-  padding-top: 30px;
-  padding-bottom: 20px;
-}
-
-.bb {
-  border-radius: 50px;
-  padding: 15px 32px;
-  text-align: center;
-  display: inline-block;
-  font-size: 12px;
-  background-color: white;
-  border: 1px solid gray;
-} 
 
 .block5 img {
   width: 200px;
@@ -315,14 +221,15 @@ table {
 
 .table1 {
   text-align: left;
-  font-size: 10px;
+  font-size: 14px;
   padding: 0 50px 0 50px;
   margin: 0;
   border-top: 1px solid silver;
 }
 
 tr,
-td {
+td,
+th {
   padding: 0 15px 0 15px;
 }
 
@@ -336,6 +243,7 @@ td {
   font-size: 11px;
   font-weight: 400;
 }
+
 .footer {
   width: 100%;
   height: 60px;
@@ -345,44 +253,67 @@ td {
   justify-content: left;
   align-items: center;
 }
+
 .img5 {
   width: 150px;
   margin: 0;
   padding: 0 10px;
 }
+
 .img6 {
   width: 100px;
   margin: 0 50px 5px 300px;
   padding: 0 10px;
 }
+
 .footer-text {
   font-size: 10px;
   opacity: 0.3;
   width: 800px;
-}   
-.warranty{
-  margin: 1rem;
 }
-.warranty h3{
+
+.warranty {
+  margin: 1rem;
+
+}
+
+.warranty h3 {
+  position: relative;
+  top: 90px;
   font-weight: 400;
   font-size: 24px;
 }
-.warranty p{
+
+.warranty p {
+  position: relative;
+  top: 100px;
   color: #222222;
   font-size: 14px;
 }
-.boost{
+
+.boost {
   margin: 3rem 1rem;
 }
-.zen{
+
+.zen {
   margin: 1rem;
 }
-.zen h3{
+
+.zen h3 {
+  position: relative;
+  top: 80px;
   font-weight: 400;
   font-size: 24px;
   line-height: 40px;
 }
-.zen p{
+
+.zen p {
+  position: relative;
+  top: 90px;
   font-size: 14px;
   color: #222222;
+}
+
+.b-bb{
+text-align: center;
 }
