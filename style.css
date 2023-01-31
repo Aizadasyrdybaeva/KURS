@@ -48,6 +48,11 @@ nav ul li a {
 .container {
   max-width: 1200px;
   margin: 0 auto;
+  
+}
+.container1 {
+  max-width: 1200px;
+  margin: 0 auto;
   border-bottom: 1px solid silver;
 }
 
@@ -92,7 +97,12 @@ botton {
   display: flex;
   justify-content: center;
 }
-
+.image-1{
+  height: 60vh;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+}
 .image2 {
   height: 70vh;
   width: 380px;
@@ -151,10 +161,15 @@ botton {
   line-height: 5px;
   font-weight: 400;
   letter-spacing: 1px;
+  position: relative;
+  top:50px;
 }
 
 .text4 {
   font-size: 14px;
+  position: relative;
+  top:70px;
+  
 }
 
 .block4 {
@@ -178,7 +193,7 @@ botton {
   font-weight: 400;
   letter-spacing: 1px;
   text-align: center;
-  padding-top: 70px;
+  padding-top: 30px;
 }
 
 .text6 {
@@ -198,6 +213,8 @@ botton {
 }
 
 .icon img {
+  position: relative;
+  top: 70px;
   width: 100px;
   padding-left: 30px;
 }
@@ -222,8 +239,7 @@ table {
   font-size: 14px;
   padding: 0 50px 0 50px;
   margin: 0;
-  border-top: 1px solid silver;
-}
+  }
 
 tr,
 td,
@@ -265,9 +281,9 @@ th {
 }
 
 .footer-text {
-  font-size: 10px;
+  font-size: 8px;
   opacity: 0.3;
-  width: 800px;
+ 
 }
 
 .warranty {
@@ -289,25 +305,14 @@ th {
 }
 
 .boost {
-  margin: 3rem 1rem;
+  margin: 1rem 1rem;
 }
 
 .zen {
-  margin: 1rem;
+  margin: 0;
 }
 
-.zen h3 {
-  top: 80px;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 40px;
-}
 
-.zen p {
-  top: 90px;
-  font-size: 14px;
-  color: #222222;
-}
 
 .b-bb {
   text-align: center;
