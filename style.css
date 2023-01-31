@@ -5,67 +5,136 @@
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+.row {
+  display: flex;
+  flex-wrap: wrap;
 
-#header {
-  width: 100%;
-  height: 50px;
-  border-bottom: 1px solid silver;
+  justify-content: center;
+}
+[class^="col"] {
+  padding: 0 10px;
+}
+.col-12 {
+  flex-basis: 100%; /* flex: 100% 0 0; */
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+.col-11 {
+  flex-basis: 91.66%; /* 100%/12*11 */
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+.col-10 {
+  flex-basis: 83.33%;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+.col-9 {
+  flex-basis: 75%;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+.col-8 {
+  flex-basis: 66.66%;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+.col-7 {
+  flex-basis: 58.33%;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+.col-6 {
+  flex-basis: 50%;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+.col-5 {
+  flex-basis: 41.66%;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+.col-4 {
+  flex-basis: 33.3%;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+.col-3 {
+  flex-basis: 25%;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+.col-2 {
+  flex-basis: 16.66%;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+.col-1 {
+  flex-basis: 8.33%;
+  flex-grow: 0;
+  flex-shrink: 0;
 }
 
 nav {
-  display: block;
   background-color: white;
-  font-size: 12px;
-  padding: 0px 10px 0 10px;
-  border-radius: 0px;
+  font-size: 10px;
+  padding: 10px 0;
   margin: 0 auto;
-  letter-spacing: 1px;
-  font-weight: 500;
-
 }
-
 nav ul {
+  padding: 0;
+  margin: 0;
   list-style-type: none;
+  display: flex;
+  justify-content: center;
 }
 
 nav ul li a {
+  display: block;
   text-decoration: none;
-  padding: 10px 10px;
+  padding: 10px 15px;
   background-color: white;
   color: black;
 }
-
-nav a:hover {
-  color: black;
-  background-color: silver;
-  border-radius: 30px;
-  border-color: silver;
-
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  border-bottom: 1px solid silver;
 }
-
-#menu1 {
+.menu {
+  padding: 15px 0;
+}
+span {
+  text-align: center;
+  padding: 10px 10px;
+  font-size: 10px;
+}
+.main1 {
   display: flex;
   justify-content: flex-start;
   align-items: center;
 }
 
-#menu-img1{
+.menu-img1 {
   padding: 0 5px;
-  width: 40px ;
+  width: 40px;
 }
-#menu-img2{
+.menu-img2 {
   padding: 0 5px;
-  width: 50px ;
+  width: 50px;
 }
-botton{
-  border:2px solid black;
+botton {
+  border: 1px solid black;
   border-radius: 50px;
-  font-size: 14px;
-  padding: 3px 10px 3px 10px;
+  font-size: 10px;
+  padding: 10px 15px;
+  display: block;
+  justify-content: center;
+  margin: ;
 }
 #pustoi {
   display: flex;
-  width: 450px;
+  width: 300px;
 }
 
 .block {
@@ -78,11 +147,9 @@ botton{
 
 .image {
   height: 70vh;
-  width: 400px;
+  width: 380px;
   display: flex;
-  justify-content: left;
-  padding: 15px 45px 10px 0;
-  margin-left: 10px;
+  justify-content: center;
 }
 
 .block1 {
@@ -90,8 +157,7 @@ botton{
   display: flex;
   width: 70%;
   height: 60vh;
-  justify-content: center;
-
+  justify-content: right;
 }
 
 .block2 {
@@ -99,110 +165,102 @@ botton{
   width: 100%;
   height: 70vh;
   justify-content: left;
-
 }
 
 .image2 {
   height: 70vh;
   width: 380px;
   display: flex;
-  padding: 15px 45px 10px 20px;
-  margin: 0;
+  justify-content: right;
 }
 
-#t-text {
+.t-text {
   display: flex;
   justify-content: flex-start;
 }
 
-#img2 {
-  padding: 70px 0 0 40px;
-  width: 70px;
-  height: ;
-
-
+.img2 {
+  padding: 20px 5px;
+  margin-top: 60px;
+  width: 30px;
 }
 
-#t-text1 {
+.t-text1 {
   display: flex;
   font-size: 10px;
-  padding: 70px 150px 0 10px;
-
-
+  padding: 20px 5px;
+  margin: 70px 0 0;
 }
 
-#img1 {
-  width: 130px;
+.img1 {
+  width: 100px;
   height: 30px;
-  padding-left: 40px;
+}
+.container {
+  max-width: 900px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
 .block3 {
-  border: ;
   display: flex;
-  width: 100%;
-  height: 70vh;
+  height: 80vh;
   padding: 0px 10px 0 10px;
   margin: 0;
 }
 
-#text1 {
-  font-size: 20px;
+.text1 {
+  font-size: 26px;
   line-height: 5px;
-  padding-left: 40px;
   font-weight: 400;
   letter-spacing: 1px;
 }
 
-#text2 {
-  font-size: 10px;
-  padding-left: 40px;
-  padding-right: 200px;
-  padding-top: 20px;
+.text2 {
+  font-size: 14px;
+  padding-right: 100px;
 }
 
-#text3 {
-  font-size: 20px;
+.text3 {
+  font-size: 26px;
   line-height: 5px;
-  padding-left: 40px;
-  padding-top: 100px;
   font-weight: 400;
   letter-spacing: 1px;
-
 }
 
-#text4 {
-  font-size: 10px;
-  padding-left: 40px;
-  padding-right: 300px;
+.text4 {
+  font-size: 14px;
 }
 
 .block4 {
-  display: block;
-  padding: 80px 20px 10px 40px;
+  display: flex;
+  justify-content: right;
 }
 
 .image3 {
-  height: 70vh;
-  width: 350px;
+  height: 80vh;
+  width: 450px;
   display: flex;
-  justify-content: left;
-  padding: 15px 60px 10px 0;
-  margin-left: 0;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 15px 20px 10px 0;
+  margin: 20px 60px 10px 40px;
 }
 
-#text5 {
-  font-size: 20px;
+.text5 {
+  font-size: 24px;
   line-height: 5px;
   font-weight: 400;
   letter-spacing: 1px;
   text-align: center;
   padding-top: 70px;
-
 }
-
-#text6 {
-  font-size: 12px;
+.pustoi1 {
+  width: 1700px;
+  height: 100px;
+}
+.text6 {
+  font-size: 14px;
   text-align: center;
   padding: 0 350px 10px 350px;
 }
@@ -220,13 +278,9 @@ botton{
   text-align: center;
   display: inline-block;
   font-size: 12px;
-
 }
 
 .block5 {
-  display: flex;
-  justify-content: center;
-
 }
 
 .block5 img {
@@ -240,9 +294,8 @@ botton{
 }
 
 .icon img {
-  width: 80px;
+  width: 100px;
   padding-left: 30px;
-
 }
 
 .icon1 {
@@ -253,15 +306,12 @@ botton{
 .icon1 img {
   width: 150px;
   padding-left: 30px;
-
-
 }
 
 table {
   border-collapse: collapse;
   width: 100%;
   height: 150px;
-  border: 2px solid silver;
 }
 
 .table1 {
@@ -269,14 +319,15 @@ table {
   font-size: 10px;
   padding: 0 50px 0 50px;
   margin: 0;
-  border-top: 2px solid silver;
+  border-top: 1px solid silver;
 }
 
-tr,td {
+tr,
+td {
   padding: 0 15px 0 15px;
 }
 
-#img3 {
+.img3 {
   width: 20px;
   padding: 0;
   margin: 0;
@@ -286,30 +337,27 @@ tr,td {
   font-size: 11px;
   font-weight: 400;
 }
-#footer {
+.footer {
   width: 100%;
-  height: 60px; 
+  height: 60px;
   margin: 0;
   padding: 0 15px 0 15px;
   display: flex;
   justify-content: left;
   align-items: center;
 }
-#img5{
+.img5 {
   width: 150px;
   margin: 0;
   padding: 0 10px;
-  
 }
-#img6{
+.img6 {
   width: 100px;
   margin: 0 50px 5px 300px;
   padding: 0 10px;
-  
 }
-#footer-text{
-  font-size: 8px;
-  opacity: .3;
+.footer-text {
+  font-size: 10px;
+  opacity: 0.3;
   width: 800px;
-
 }
